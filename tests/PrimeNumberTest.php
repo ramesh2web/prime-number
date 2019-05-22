@@ -14,10 +14,10 @@ class PrimeNumberTest extends TestCase
     {
         $this->primeNumber = new PrimeNumber();
     }
-	
-	//test non prime number
+		
 	
 	/**
+	 * Test Non Prime Number
      * @covers PrimeNumber::isPrimeNumber
      */
 	
@@ -26,10 +26,11 @@ class PrimeNumberTest extends TestCase
 	
 	}
 	
-		//test prime number
+		
 		
 			
 	/**
+	 *Test Prime Number
      * @covers PrimeNumber::isPrimeNumber
      */	
 	
